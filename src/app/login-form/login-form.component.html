@@ -1,0 +1,17 @@
+<form [formGroup]="adminUser" (ngSubmit)="runLogin()">
+
+    <label>
+        User Name:
+        <input type="text" formControlName="userName">
+    </label>
+
+    <label>
+        Password:
+        <input type="text" formControlName="password">
+    </label>
+
+    <button type="submit" [disabled]="!adminUser.valid">Login</button>
+
+
+
+</form>

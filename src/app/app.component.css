@@ -1,0 +1,16 @@
+app-welcome-info {
+    position: fixed;
+    display: block;
+    bottom: 36px;
+    right: 36px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+app-login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
